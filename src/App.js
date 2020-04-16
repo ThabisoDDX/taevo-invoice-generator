@@ -22,7 +22,9 @@ function App() {
       scale: 1,
     }).then((canvas) => {
       sessionStorage.clear();
-      window.location.assign("/taevo-invoice-generator");
+      window.location.assign(
+        "https://thabisoddx.github.io/taevo-invoice-generator"
+      );
       const imgData = canvas.toDataURL("image/png");
       const pdf = new jsPDF();
       pdf.addImage(imgData, "JPEG", 0, 0);
