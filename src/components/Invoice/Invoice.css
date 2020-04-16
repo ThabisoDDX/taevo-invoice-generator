@@ -1,0 +1,248 @@
+.Invoice {
+  position: relative;
+  width: 100%;
+  height: 297mm;
+  padding-top: 8em;
+}
+
+.Invoice input {
+  color: #f16162;
+  border: none;
+  background-color: transparent;
+}
+
+.Invoice header {
+  width: 80%;
+  margin: 0 auto 4em;
+}
+
+.Invoice header h1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Invoice header h1 span {
+  display: inline-block;
+  margin: auto 0;
+}
+
+.Invoice header h1 img {
+  height: 28px;
+}
+
+.Invoice header div {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #737574;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+
+.Invoice header ul li {
+  margin-bottom: 0.3em;
+}
+
+.Invoice header ul li input {
+  color: #f16162;
+  border: none;
+  margin-bottom: 0.3em;
+}
+
+.Invoice header ul:last-of-type li input {
+  display: block;
+}
+
+.Invoice header ul:last-of-type li input {
+  color: #f16162;
+  text-align: right;
+}
+
+::placeholder {
+  text-transform: capitalize;
+  color: #f16162;
+  opacity: 0.5;
+}
+
+.Invoice header ul:first-of-type li:first-of-type,
+.Invoice header ul:first-of-type li:first-of-type input {
+  color: #323742;
+  font-size: 1.5rem;
+  margin-bottom: 0.45em;
+  border: none;
+}
+
+.Invoice header ul:first-of-type li:first-of-type input {
+  color: #f16162;
+}
+
+.Invoice header ul:last-of-type {
+  text-align: right;
+}
+
+.Invoice .details {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Invoice .details ul {
+  display: flex;
+  justify-content: space-between;
+  color: #323742;
+  font-size: 0.875rem;
+  font-weight: 600;
+  /* margin-top: 2em; */
+}
+
+.Invoice .details ul li {
+  width: 25%;
+  margin-bottom: 1em;
+}
+
+.Invoice .details ul li:last-of-type,
+.Invoice .details ul li:last-of-type input {
+  text-align: right;
+}
+
+.Invoice .details ul li input {
+  color: #f16162;
+  border: none;
+}
+
+.Invoice .details .btns {
+  display: flex;
+}
+
+.Invoice .details .btns button {
+  color: #7fbcbe;
+  border-radius: 35px;
+  border: 1px solid #f2f6f3;
+  margin-right: 0.8em;
+}
+
+.Invoice .details .btns button:first-of-type {
+  color: #323742;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 1px solid #7fbcbe;
+  background-color: #7fbcbe;
+  border-radius: 50%;
+}
+
+.Invoice .details .btns button:first-of-type span {
+  display: inline-block;
+  margin: auto;
+}
+
+.Invoice .details ul li img {
+  height: 12px;
+  margin-right: 0.5em;
+}
+
+.Invoice .details ul li:first-of-type {
+  width: 35%;
+}
+
+.Invoice .details ul li:last-of-type {
+  color: #f16162;
+}
+
+.Invoice .details ul li:nth-child(3) {
+  width: 15%;
+}
+
+.Invoice .details ul:first-of-type {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #737574;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #737574;
+}
+
+.Invoice .details ul:first-of-type li {
+  color: #737574;
+  font-weight: 600;
+  margin: 0;
+}
+
+.Invoice footer {
+  position: absolute;
+  bottom: 0;
+  padding: 4em 0;
+  width: 100%;
+  height: 280px;
+  background-color: #f2f6f3;
+}
+
+.Invoice footer div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Invoice footer .total ul {
+  color: #737574;
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #000;
+}
+
+.Invoice footer .total ul:first-child {
+  text-transform: uppercase;
+}
+
+.Invoice footer .total ul:last-of-type {
+  padding: 2em 0;
+}
+
+.Invoice footer .total ul li {
+  width: 30%;
+}
+
+.Invoice footer .total ul li:nth-child(1) {
+  width: 40%;
+}
+
+.Invoice footer .total ul:last-of-type span {
+  display: block;
+  margin-bottom: 0.4em;
+}
+
+.Invoice footer .total ul:last-of-type li:nth-child(2) {
+  color: #323742;
+  font-size: 1.5rem;
+}
+
+.Invoice footer .total ul:last-of-type li:nth-child(3) {
+  color: #f16162;
+  font-size: 1.5rem;
+}
+
+.Invoice footer .contacts {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 2em;
+}
+
+.Invoice footer .contacts ul {
+  display: flex;
+  font-size: 0.675rem;
+  margin: auto 0;
+}
+
+.Invoice footer .contacts ul li,
+.Invoice footer .contacts input {
+  text-align: right;
+}
+
+.Invoice footer .contacts ul img {
+  height: 6px;
+  margin: 0 0.4em;
+}

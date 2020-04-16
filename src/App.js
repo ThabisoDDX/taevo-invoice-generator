@@ -1,24 +1,61 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import html2canvas from "html2canvas";
+import jsPDF from "jspdf";
+import InvoiceForm from "./components/Invoice/InvoiceForm";
+import moment from "moment";
+
+import "./App.css";
 
 function App() {
+  const [saveForm, setSaveForm] = useState(false);
+
+  const invoiceName = `INVOICE${moment().format("DDMMYYYY")}${
+    Math.floor(Math.random() * 100) + 10
+  }`;
+
+  const printDocument = () => {
+    const input = document.getElementById("divToPrint");
+    html2canvas(input, {
+      allowTaint: true,
+      taintTest: false,
+      useCORS: true,
+      scale: 1,
+    }).then((canvas) => {
+      sessionStorage.clear();
+      window.location.assign("/");
+      const imgData = canvas.toDataURL("image/png");
+      const pdf = new jsPDF();
+      pdf.addImage(imgData, "JPEG", 0, 0);
+      // pdf.output('dataurlnewwindow');
+      pdf.save(`${invoiceName}.pdf`);
+    });
+  };
+
+  const toggleSaveForm = () => {
+    setSaveForm(!saveForm);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="mb5 btn">
+        {saveForm && (
+          <>
+            <button onClick={toggleSaveForm}>Edit</button>
+            <button onClick={printDocument}>Print</button>
+          </>
+        )}
+      </div>
+      <div
+        id="divToPrint"
+        style={{
+          width: "210mm",
+          minHeight: "297mm",
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+      >
+        <InvoiceForm toggleSaveForm={toggleSaveForm} saveForm={saveForm} />
+      </div>
     </div>
   );
 }
