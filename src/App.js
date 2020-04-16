@@ -22,7 +22,7 @@ function App() {
       scale: 1,
     }).then((canvas) => {
       sessionStorage.clear();
-      window.location.assign("/");
+      window.location.assign("/taevo-invoice-generator");
       const imgData = canvas.toDataURL("image/png");
       const pdf = new jsPDF();
       pdf.addImage(imgData, "JPEG", 0, 0);
