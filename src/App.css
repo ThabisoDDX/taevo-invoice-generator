@@ -16,7 +16,26 @@
   width: 180px;
   height: 50px;
   background-color: #7fbcbe;
-  border-radius: 10px;
   border: 1px solid #7fbcbe;
   margin-bottom: 1em;
+}
+
+@media (max-width: 30em) {
+  .App {
+    height: 100vh;
+    overflow: scroll;
+  }
+
+  .App .btn {
+    width: 100%;
+    top: 0;
+    left: 0;
+    flex-direction: row;
+    z-index: 1;
+  }
+
+  .App .btn button {
+    width: 100%;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
 }
