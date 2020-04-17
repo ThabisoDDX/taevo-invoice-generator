@@ -1,3 +1,3 @@
 # taevo-invoice-generator
 
-[Image description](taevo-invoice-generator.png)
+![Taevo invoice screenshot](taevo-invoice-generator.png)
