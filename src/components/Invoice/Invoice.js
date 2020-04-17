@@ -107,7 +107,9 @@ export default function Invoice({
           <ul className="vat">
             <li></li>
             <li></li>
-            <li>DISCOUNT</li>
+            <li>
+              <span>R</span> DISCOUNT
+            </li>
             <li>{discountAmount}</li>
           </ul>
         )}
@@ -138,7 +140,12 @@ export default function Invoice({
                 <strong style={{ color: "#323742" }}>{branchCode}</strong>
               </span>
             </li>
-            <li>{dateDue}</li>
+            {dateDue !== null && (
+              <li>
+                {moment(dateDue).format("DD MMM ")}'
+                {moment(dateDue).format("YY")}
+              </li>
+            )}
             <li>R{(totalAmountVatInclusive - discountAmount).toFixed(2)}</li>
           </ul>
         </div>

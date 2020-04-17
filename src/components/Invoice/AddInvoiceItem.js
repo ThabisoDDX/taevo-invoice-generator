@@ -87,6 +87,7 @@ export default function AddInvoiceItem({
           <li></li>
           <li>DISCOUNT</li>
           <li>
+            <span>R</span>
             <input
               type="text"
               name="discountAmount"
