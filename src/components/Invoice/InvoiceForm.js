@@ -239,9 +239,7 @@ export default function InvoiceForm({ toggleSaveForm, saveForm }) {
                       />
                       {item.description}
                     </li>
-                    <li>
-                      <span>R</span> {item.rate}
-                    </li>
+                    <li>{item.rate}</li>
                     <li>{item.units}</li>
                     <li>
                       {" "}
