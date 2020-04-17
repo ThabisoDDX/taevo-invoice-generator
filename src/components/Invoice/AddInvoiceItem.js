@@ -103,7 +103,10 @@ export default function AddInvoiceItem({
           <li></li>
           <li></li>
           <li> VAT @ 15%</li>
-          <li>{(totalAmountDue * storedVat).toFixed(2)}</li>
+          <li>
+            <span>R</span>
+            <span>{(totalAmountDue * storedVat).toFixed(2)}</span>
+          </li>
         </ul>
       )}
       <div className="btns">
