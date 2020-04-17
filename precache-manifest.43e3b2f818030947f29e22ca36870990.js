@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ce846490e8810169e9e2df75c306d72",
+    "revision": "33e8576acb7ef566d1167c7d5854b820",
     "url": "/taevo-invoice-generator/index.html"
   },
   {
-    "revision": "3c1b883634532fdcf514",
-    "url": "/taevo-invoice-generator/static/css/main.7b6cfd68.chunk.css"
+    "revision": "751c3ac3e4cc08982f76",
+    "url": "/taevo-invoice-generator/static/css/main.92eeaf41.chunk.css"
   },
   {
     "revision": "cc147461502395ba82ea",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/taevo-invoice-generator/static/js/2.78e736a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3c1b883634532fdcf514",
-    "url": "/taevo-invoice-generator/static/js/main.ee43e888.chunk.js"
+    "revision": "751c3ac3e4cc08982f76",
+    "url": "/taevo-invoice-generator/static/js/main.4d214dcc.chunk.js"
   },
   {
     "revision": "0a0da9606a39a3b4fd96",

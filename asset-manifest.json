@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/taevo-invoice-generator/static/css/main.7b6cfd68.chunk.css",
-    "main.js": "/taevo-invoice-generator/static/js/main.ee43e888.chunk.js",
-    "main.js.map": "/taevo-invoice-generator/static/js/main.ee43e888.chunk.js.map",
+    "main.css": "/taevo-invoice-generator/static/css/main.92eeaf41.chunk.css",
+    "main.js": "/taevo-invoice-generator/static/js/main.4d214dcc.chunk.js",
+    "main.js.map": "/taevo-invoice-generator/static/js/main.4d214dcc.chunk.js.map",
     "runtime-main.js": "/taevo-invoice-generator/static/js/runtime-main.6d70f1bc.js",
     "runtime-main.js.map": "/taevo-invoice-generator/static/js/runtime-main.6d70f1bc.js.map",
     "static/js/2.78e736a6.chunk.js": "/taevo-invoice-generator/static/js/2.78e736a6.chunk.js",
     "static/js/2.78e736a6.chunk.js.map": "/taevo-invoice-generator/static/js/2.78e736a6.chunk.js.map",
     "index.html": "/taevo-invoice-generator/index.html",
-    "precache-manifest.72d97c12b5ce7e810390e39dd0639e8f.js": "/taevo-invoice-generator/precache-manifest.72d97c12b5ce7e810390e39dd0639e8f.js",
+    "precache-manifest.43e3b2f818030947f29e22ca36870990.js": "/taevo-invoice-generator/precache-manifest.43e3b2f818030947f29e22ca36870990.js",
     "service-worker.js": "/taevo-invoice-generator/service-worker.js",
-    "static/css/main.7b6cfd68.chunk.css.map": "/taevo-invoice-generator/static/css/main.7b6cfd68.chunk.css.map",
+    "static/css/main.92eeaf41.chunk.css.map": "/taevo-invoice-generator/static/css/main.92eeaf41.chunk.css.map",
     "static/js/2.78e736a6.chunk.js.LICENSE.txt": "/taevo-invoice-generator/static/js/2.78e736a6.chunk.js.LICENSE.txt",
     "static/media/arrow-right-icon.svg": "/taevo-invoice-generator/static/media/arrow-right-icon.88d604b4.svg",
     "static/media/trash.svg": "/taevo-invoice-generator/static/media/trash.0c9746b7.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.6d70f1bc.js",
     "static/js/2.78e736a6.chunk.js",
-    "static/css/main.7b6cfd68.chunk.css",
-    "static/js/main.ee43e888.chunk.js"
+    "static/css/main.92eeaf41.chunk.css",
+    "static/js/main.4d214dcc.chunk.js"
   ]
 }
