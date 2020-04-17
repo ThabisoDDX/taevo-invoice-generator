@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/taevo-invoice-generator/precache-manifest.2b0fbb3292f421bf091a37ca3c512fbc.js"
+  "/taevo-invoice-generator/precache-manifest.bf2fa7485d8328396ecd7628bf20a490.js"
 );
 
 self.addEventListener('message', (event) => {
