@@ -30,7 +30,7 @@ export default function InvoiceForm({ toggleSaveForm, saveForm }) {
   const [fileUpload, setFileUpload] = useState(null);
 
   const handleFileUpload = (event) => {
-    setFileUpload({ fileUpload: URL.createObjectURL(event.target.files[0]) });
+    setFileUpload({ file: URL.createObjectURL(event.target.files[0]) });
   };
 
   const handleAddItem = (event) => {
@@ -105,6 +105,8 @@ export default function InvoiceForm({ toggleSaveForm, saveForm }) {
     inputs.discountAmount = 0;
   };
 
+  const file = fileUpload && fileUpload.file;
+
   return (
     <>
       {!saveForm ? (
@@ -113,10 +115,15 @@ export default function InvoiceForm({ toggleSaveForm, saveForm }) {
             <h1>
               <span>
                 <input
+                  style={{ opacity: file && "0" }}
                   type="file"
                   name="file"
-                  // defaultValue={fileUpload}
                   onChange={handleFileUpload}
+                />
+                <img
+                  src={file}
+                  alt=""
+                  syle={{ color: "blue", backgroundColor: "blue" }}
                 />
               </span>
               <input type="submit" name="submit" value="Save" />
@@ -148,6 +155,17 @@ export default function InvoiceForm({ toggleSaveForm, saveForm }) {
                 <li>
                   {" "}
                   <span>Invoice Number:</span> <span>{inputs.invoiceNo}</span>
+                </li>
+                <li>
+                  {" "}
+                  <span>Tax Reg. No:</span>{" "}
+                  <input
+                    type="text"
+                    name="taxNumber"
+                    placeholder="VAT Reg. no"
+                    defaultValue={inputs.taxNumber}
+                    onChange={handleInputChange}
+                  />
                 </li>
               </ul>
               <ul>
@@ -193,15 +211,6 @@ export default function InvoiceForm({ toggleSaveForm, saveForm }) {
                     name="postalCode"
                     placeholder="Postal Code"
                     defaultValue={inputs.postalCode}
-                    onChange={handleInputChange}
-                  />
-                </li>
-                <li>
-                  <input
-                    type="text"
-                    name="taxNumber"
-                    placeholder="VAT Reg. no"
-                    defaultValue={inputs.taxNumber}
                     onChange={handleInputChange}
                   />
                 </li>
@@ -352,7 +361,7 @@ export default function InvoiceForm({ toggleSaveForm, saveForm }) {
           phone={inputs.phone}
           website={inputs.website}
           postalCode={inputs.postalCode}
-          avatar={fileUpload && fileUpload.fileUpload}
+          avatar={file}
           discountAmount={inputs.discountAmount}
           items={items}
           totalAmountVatInclusive={totalAmountVatInclusive}

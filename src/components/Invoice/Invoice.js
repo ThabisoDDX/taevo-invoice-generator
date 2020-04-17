@@ -56,9 +56,16 @@ export default function Invoice({
 
             <li>
               {" "}
-              <span>Invoice Number:</span>{" "}
+              <span>Invoice No:</span>{" "}
               <span style={{ color: "#323742" }}>{invoiceNo}</span>
             </li>
+            {taxNumber !== "" && (
+              <li>
+                {" "}
+                <span>Tax Reg. No:</span>{" "}
+                <span style={{ color: "#323742" }}>{taxNumber}</span>
+              </li>
+            )}
           </ul>
           <ul>
             <li>{yourName}</li>
@@ -139,14 +146,19 @@ export default function Invoice({
         <div className="contacts">
           <h2>Thank you!</h2>
           <ul>
-            <li>
-              {email} <img src={arroWRight} alt="icon" />
-            </li>
-            <li>
-              {phone} <img src={arroWRight} alt="icon" />
-            </li>
-
-            <li>{website}</li>
+            {email !== "" && <li>{email}</li>}
+            {phone !== "" && (
+              <li>
+                <img src={arroWRight} alt="icon" />
+                {phone}
+              </li>
+            )}
+            {website !== "" && (
+              <li>
+                <img src={arroWRight} alt="icon" />
+                {website}
+              </li>
+            )}
           </ul>
         </div>
       </footer>
