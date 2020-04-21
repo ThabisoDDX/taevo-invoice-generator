@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/taevo-invoice-generator/static/css/main.f0aabeff.chunk.css",
-    "main.js": "/taevo-invoice-generator/static/js/main.ac78df34.chunk.js",
-    "main.js.map": "/taevo-invoice-generator/static/js/main.ac78df34.chunk.js.map",
+    "main.css": "/taevo-invoice-generator/static/css/main.65b42ea7.chunk.css",
+    "main.js": "/taevo-invoice-generator/static/js/main.3ced8da6.chunk.js",
+    "main.js.map": "/taevo-invoice-generator/static/js/main.3ced8da6.chunk.js.map",
     "runtime-main.js": "/taevo-invoice-generator/static/js/runtime-main.6d70f1bc.js",
     "runtime-main.js.map": "/taevo-invoice-generator/static/js/runtime-main.6d70f1bc.js.map",
-    "static/js/2.952221f9.chunk.js": "/taevo-invoice-generator/static/js/2.952221f9.chunk.js",
-    "static/js/2.952221f9.chunk.js.map": "/taevo-invoice-generator/static/js/2.952221f9.chunk.js.map",
+    "static/js/2.8aaec5e7.chunk.js": "/taevo-invoice-generator/static/js/2.8aaec5e7.chunk.js",
+    "static/js/2.8aaec5e7.chunk.js.map": "/taevo-invoice-generator/static/js/2.8aaec5e7.chunk.js.map",
     "index.html": "/taevo-invoice-generator/index.html",
-    "precache-manifest.3aa310a964d91985c66c3ec42431559a.js": "/taevo-invoice-generator/precache-manifest.3aa310a964d91985c66c3ec42431559a.js",
+    "precache-manifest.b9e96f31db77615272b969003d148e01.js": "/taevo-invoice-generator/precache-manifest.b9e96f31db77615272b969003d148e01.js",
     "service-worker.js": "/taevo-invoice-generator/service-worker.js",
-    "static/css/main.f0aabeff.chunk.css.map": "/taevo-invoice-generator/static/css/main.f0aabeff.chunk.css.map",
-    "static/js/2.952221f9.chunk.js.LICENSE.txt": "/taevo-invoice-generator/static/js/2.952221f9.chunk.js.LICENSE.txt",
+    "static/css/main.65b42ea7.chunk.css.map": "/taevo-invoice-generator/static/css/main.65b42ea7.chunk.css.map",
+    "static/js/2.8aaec5e7.chunk.js.LICENSE.txt": "/taevo-invoice-generator/static/js/2.8aaec5e7.chunk.js.LICENSE.txt",
     "static/media/add-file.svg": "/taevo-invoice-generator/static/media/add-file.5eba89c9.svg",
     "static/media/arrow-right-icon.svg": "/taevo-invoice-generator/static/media/arrow-right-icon.88d604b4.svg",
     "static/media/trash.svg": "/taevo-invoice-generator/static/media/trash.0c9746b7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6d70f1bc.js",
-    "static/js/2.952221f9.chunk.js",
-    "static/css/main.f0aabeff.chunk.css",
-    "static/js/main.ac78df34.chunk.js"
+    "static/js/2.8aaec5e7.chunk.js",
+    "static/css/main.65b42ea7.chunk.css",
+    "static/js/main.3ced8da6.chunk.js"
   ]
 }
