@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/taevo-invoice-generator/static/css/main.65b42ea7.chunk.css",
-    "main.js": "/taevo-invoice-generator/static/js/main.3ced8da6.chunk.js",
-    "main.js.map": "/taevo-invoice-generator/static/js/main.3ced8da6.chunk.js.map",
+    "main.js": "/taevo-invoice-generator/static/js/main.eb0d593a.chunk.js",
+    "main.js.map": "/taevo-invoice-generator/static/js/main.eb0d593a.chunk.js.map",
     "runtime-main.js": "/taevo-invoice-generator/static/js/runtime-main.6d70f1bc.js",
     "runtime-main.js.map": "/taevo-invoice-generator/static/js/runtime-main.6d70f1bc.js.map",
     "static/js/2.8aaec5e7.chunk.js": "/taevo-invoice-generator/static/js/2.8aaec5e7.chunk.js",
     "static/js/2.8aaec5e7.chunk.js.map": "/taevo-invoice-generator/static/js/2.8aaec5e7.chunk.js.map",
     "index.html": "/taevo-invoice-generator/index.html",
-    "precache-manifest.b9e96f31db77615272b969003d148e01.js": "/taevo-invoice-generator/precache-manifest.b9e96f31db77615272b969003d148e01.js",
+    "precache-manifest.3e763379446e9bdb064d10ddf66ab689.js": "/taevo-invoice-generator/precache-manifest.3e763379446e9bdb064d10ddf66ab689.js",
     "service-worker.js": "/taevo-invoice-generator/service-worker.js",
     "static/css/main.65b42ea7.chunk.css.map": "/taevo-invoice-generator/static/css/main.65b42ea7.chunk.css.map",
     "static/js/2.8aaec5e7.chunk.js.LICENSE.txt": "/taevo-invoice-generator/static/js/2.8aaec5e7.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.6d70f1bc.js",
     "static/js/2.8aaec5e7.chunk.js",
     "static/css/main.65b42ea7.chunk.css",
-    "static/js/main.3ced8da6.chunk.js"
+    "static/js/main.eb0d593a.chunk.js"
   ]
 }
