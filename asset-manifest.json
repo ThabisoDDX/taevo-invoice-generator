@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/taevo-invoice-generator/static/css/main.65b42ea7.chunk.css",
-    "main.js": "/taevo-invoice-generator/static/js/main.eb0d593a.chunk.js",
-    "main.js.map": "/taevo-invoice-generator/static/js/main.eb0d593a.chunk.js.map",
+    "main.css": "/taevo-invoice-generator/static/css/main.c4860207.chunk.css",
+    "main.js": "/taevo-invoice-generator/static/js/main.575d20af.chunk.js",
+    "main.js.map": "/taevo-invoice-generator/static/js/main.575d20af.chunk.js.map",
     "runtime-main.js": "/taevo-invoice-generator/static/js/runtime-main.6d70f1bc.js",
     "runtime-main.js.map": "/taevo-invoice-generator/static/js/runtime-main.6d70f1bc.js.map",
     "static/js/2.8aaec5e7.chunk.js": "/taevo-invoice-generator/static/js/2.8aaec5e7.chunk.js",
     "static/js/2.8aaec5e7.chunk.js.map": "/taevo-invoice-generator/static/js/2.8aaec5e7.chunk.js.map",
     "index.html": "/taevo-invoice-generator/index.html",
-    "precache-manifest.3e763379446e9bdb064d10ddf66ab689.js": "/taevo-invoice-generator/precache-manifest.3e763379446e9bdb064d10ddf66ab689.js",
+    "precache-manifest.b24bea1395ee4b232c1f64e1119fbce4.js": "/taevo-invoice-generator/precache-manifest.b24bea1395ee4b232c1f64e1119fbce4.js",
     "service-worker.js": "/taevo-invoice-generator/service-worker.js",
-    "static/css/main.65b42ea7.chunk.css.map": "/taevo-invoice-generator/static/css/main.65b42ea7.chunk.css.map",
+    "static/css/main.c4860207.chunk.css.map": "/taevo-invoice-generator/static/css/main.c4860207.chunk.css.map",
     "static/js/2.8aaec5e7.chunk.js.LICENSE.txt": "/taevo-invoice-generator/static/js/2.8aaec5e7.chunk.js.LICENSE.txt",
     "static/media/add-file.svg": "/taevo-invoice-generator/static/media/add-file.5eba89c9.svg",
     "static/media/arrow-right-icon.svg": "/taevo-invoice-generator/static/media/arrow-right-icon.88d604b4.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.6d70f1bc.js",
     "static/js/2.8aaec5e7.chunk.js",
-    "static/css/main.65b42ea7.chunk.css",
-    "static/js/main.eb0d593a.chunk.js"
+    "static/css/main.c4860207.chunk.css",
+    "static/js/main.575d20af.chunk.js"
   ]
 }
